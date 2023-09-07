@@ -1,0 +1,37 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+body{
+    background-color: antiquewhite;
+}
+button{
+    border: none;
+    background-color: rgb(136, 227, 0);
+    transition: 0.3s;
+    padding: 10px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 1px;
+    border-radius: 1rem;
+}
+button:hover{
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+}
